@@ -1,0 +1,266 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 { font-family: Tahoma, sans-serif; }
+
+html, body {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+}
+
+
+.container {
+    position: relative;
+    height: 100%;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    z-index: 2;
+    color: #000000;
+    height: 100%;
+    padding: 15px;
+}
+
+.login-text {
+    color: #FFFFFF;
+}
+
+.nav > a {
+    color: #000000;
+}
+
+.nav {
+    padding: 10px 5px 10px 5px;
+    font-size: 17px;
+}
+
+
+.header {
+    text-align: center;
+    color: 	#00008B;
+    padding: 20px 5px 5px 5px;     
+}
+
+
+.container::before {
+    content: "";
+    background-image: url('../images/Background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity: 0.7;
+}
+
+
+.fill {
+    flex-grow: 1;  
+}
+
+.footer {
+    color: #000000;
+    height: 5px;
+    font-family: 'Arial', sans-serif;
+    font-size: smaller;
+}
+
+.footer-name {
+    color: 	#00008B;
+}
+
+.separator {
+    color: #f9f9f9;
+}
+
+
+.main-intro-text {
+   padding: 20px 5px 5px 5px;
+   font-family: 'Arial', sans-serif;
+   text-align: center;
+   font-size: 17px;
+}
+
+
+
+.faq-questions {
+   color:#FF4500; 
+   text-align: center;
+   padding: 5px 5px 5px 5px;
+}
+
+.faq-answers {
+   font-family: 'Arial', sans-serif;
+   text-align: center;
+   font-size: 17px;
+}
+
+.question {
+    color:#FF4500;
+    text-decoration: none
+}
+
+.question:hover {
+    text-decoration: underline
+}
+
+.q-text {
+    color: #FFFFFF;
+}
+
+
+
+.links { 
+   padding: 20px 5px 5px 5px;
+   text-align: center;
+}
+
+.underline-links {
+    color:#FF4500;
+    text-decoration: none
+}
+
+.underline-links:hover {
+    text-decoration: underline
+}
+
+.u-links {
+    color: #FFFFFF;
+}
+
+
+
+.MC-text {
+    color: #FFFFFF;
+    padding: 5px;
+}
+
+.auto-style1 {
+    width: 600px;
+    height: 500px;
+    min-width: 250px;
+    border-radius: 25px;
+    padding: 10px;
+    margin-right: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;     
+}
+
+
+.WN-intro-text {
+   padding: 20px 5px 5px 5px;
+   font-family: 'Arial', sans-serif;
+   text-align: center;
+   font-size: 17px;
+}
+
+
+
+.GB-text {
+    color: #FFFFFF;
+    padding: 5px;
+}
+
+
+
+ .header-search {
+    height: 20vh;
+    background-size: cover;
+    background-position: center;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    font-family: sans-serif;}
+    
+    .search-field {
+        height: 10px;
+        padding: 10px;
+        border: none;
+        border-radius: 60px;
+        outline: none;}
+    
+    .cycling {
+        width: 350px;
+        height: 25px;
+}
+    
+    .location {
+        width: 180px;
+        height: 25px;
+}
+    
+    .search-btn {
+        height: 30px;
+        width: 80px;
+        background: #CD853F;
+        border: none;
+        color: #FFFFFF;
+        border-radius: 30px;}
+    
+    .search-btn:hover {
+        background: #FF4500;
+        cursor: pointer;
+}
+    
+    .form-box {
+        background: rgba(0,0,0,0.5);
+        padding: 5px;
+}
+
+
+
+.TOC-map {
+    color:#FF4500;
+    text-decoration: none;
+}
+
+.TOC-map:hover {
+    text-decoration: underline
+}
+
+.TOC-title {
+    color:#FFFFFF;
+    text-align: center;
+   padding: 5px 5px 5px 5px;
+    
+    
+}
+
+.TOC-text {
+   color:#000000; 
+   font-family: 'Arial', sans-serif;
+   text-align: center;
+}
+
+.TOC {
+  overflow-y: scroll;
+}
+
+
+
+ .join-text, .signup-button, .header {
+    margin: 10px 0;
+}
+
+.join {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 4px;
+}
+
+.join-text {
+    color: #FFFFFF;
+}
